@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Exercicio 4</title>
+</head>
+<script language="JavaScript" type="text/JavaScript">
+    let dado = prompt("Digite um dado: ");
+    let verificar = prompt("Deseja verificar o tipo de dado? (S/N)").toLowerCase();
+    if (verificar == 's') {
+        let tipo;
+        if (dado.trim() != "" && !isNaN(dado)) {
+            dado = Number(dado);
+            tipo = "number";
+        } else if (dado.toLowerCase() == 'true' || dado.toLowerCase() == 'false') {
+            tipo = "boolean";
+        } else {
+            tipo = "string";
+        }
+        alert("O dado é um (a) " + tipo);
+    } else {
+        alert("Obrigado por visitar esta página!")
+    }
+</script>
+</html>
