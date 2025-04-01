@@ -28,9 +28,9 @@
             if (index <= texto.length) {
                 root.render(<MeuElemento letreiro={texto.slice(0, index)}/>);
                 index++;
-                setInterval(tick, 100);
+                setTimeout(tick, 100);
             } else {
-                setInterval(() => {
+                setTimeout(() => {
                     index = 0;
                     tick();
                 }, 1000);
