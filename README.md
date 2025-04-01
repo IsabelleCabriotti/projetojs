@@ -67,3 +67,9 @@ seguinte regra:
  Preenchidos os campos os métodos criados devem ser utilizados para exibir 
 quantos anos o veículo tem de utilização juntamente com seu valor de 
 mercado.
+
+______________________________________________________________________________________________________
+
+Semana 4
+
+1 - Implementar um formulario de cadastro de alunos e professores, ao cadastrar os alunos deverão ser inseridos os campos de Curso e Matricula e ao cadastrar os professores deverão ser inseridos os campos de Área, Matricula e Lattes.
