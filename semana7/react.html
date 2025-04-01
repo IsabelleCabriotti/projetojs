@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionando React à minha página</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+        /*function MeuElemento(){
+            return <h1>Olá Mundo!</h1>
+        }
+
+        const faculdade = {
+            nome: 'Fatec',
+            cidade: 'Presidente Prudente'
+        }
+
+        function formatName(faculdade){
+            return faculdade.nome + ' - ' + faculdade.cidade
+        }
+
+        function MeuElemento(){
+            return <h1>Olá {formatName(faculdade)}</h1>
+        }
+
+       /*function MeuElemento(){
+        return <div><h1>Olá Mundo!</h1><h2>Olá Sala!</h2></div>
+       }
+
+        function MeuElemento(){
+            return (
+                <div>
+                    <h1>Olá Mundo!</h1>
+                    <h2>Olá sala!</h2>
+                </div>
+            )
+        }
+        
+        function MeuElemento(){
+            return (
+                <div>
+                    <h1>Olá Mundo!</h1>
+                    <h2>Agora são {new Date().toLocaleTimeString()}</h2>
+                </div>
+            )
+        }
+
+        const container = document.getElementById('root');
+        const root = ReactDOM.createRoot(container);
+        function tick(){
+            root.render(<MeuElemento/>);
+        }
+        setInterval(tick,1000);*/
+
+        /*function MeuElemento({agora}){
+            return (
+                <div>
+                    <h1>Olá Mundo!</h1>
+                    <h2>Agora são {agora}</h2>
+                </div>
+            )
+        }
+        const container = document.getElementById('root');
+        const root = ReactDOM.createRoot(container);
+
+        function tick(){
+            let now = new Date().toLocaleTimeString();
+            root.render(<MeuElemento agora = {now} />)
+        }
+        setInterval(tick,1000);*/
+
+        /*const container = document.getElementById('root');
+        const root = ReactDOM.createRoot(container);
+        root.render(<MeuElemento/>);*/
+    </script>
+</body>
+</html>
